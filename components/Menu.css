@@ -1,16 +1,11 @@
-.List {
+.Menu {
+    display: flex;
     list-style-type: none;
+    flex-flow: wrap column;
+    align-items: center;
 }
 
-.List--horizontal .list__item {
-    display: inline-block;
-}
-
-.List--red-first-item :first-child {
-    color: red;
-}
-
-.List__item {
-    padding-bottom: 5px;
+.Menu__item {
+    cursor: pointer;
 }
 

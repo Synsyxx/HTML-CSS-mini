@@ -1,13 +1,21 @@
-@import './components/Menu.css';
+
 @import './components/Section.css';
 
+@import './components/Menu.css';
 
-
-body {
-    margin: 0;
-    box-sizing: border-box;
+p {
+    padding: 0 15px;
 }
 
-h1 {
-    margin: 0;
+h2 {
+    padding: 0 15px;
+}
+
+h3 {
+    background-color: gray;
+    width: 45px;
+}
+
+body {
+    min-width: 300px;
 }
